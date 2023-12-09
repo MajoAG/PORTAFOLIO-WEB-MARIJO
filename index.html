@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="author" content="Taylor Swift">
+        <meta name="description" content="Portafolio web de Taylor Swift">
+        <meta name="keywords" content="HTML, CSS, JavaScript, React">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Taylor Swift</title>
+
+        <link rel="icon" type="image/x-icon" href="TS ICON.png">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"></href>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+        <link href="style.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    </head> 
+    <body>
+
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>  
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-toggler">
+                    <a class="navbar-brand" href="#">
+                        <img src="TS ICON.png" width="80" alt="Logo de la página web">
+                    </a>
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link-active" aria-current="page" href="#sobre-ella">Sobre ella</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-ella">Álbumes</a> 
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Tours">Tours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-ella">Canciones</a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="hero align-items-stretch">
+            <div class="hero-principal d-flex flex-colum justify-content-center align-items-center">
+                <img class="hero-imagen-desarrollador rouded-circle" src="TS 2.png" width="50" alt="Foto de TS">
+                <h1></h1>
+                <h2></h2>
+
+
+                <h2 class="text-primary mb-4" id="typewriter"></h2>
+            </div>
+            <div class="hero-inferior">
+                <img class="hero-inferior-imagen img-fluid" src="TS 3.png" width="100" alt="Foto de TS 3">
+            </div>
+        </section>
+
+
+        <section id="sobre-ella" class="sobre-ella seccion-oscura">
+            <div class="contenedor">
+                <h2 class="seccion-titulo">Conoce a Taylor Swift</h2>
+                <h2 class="seccion-texto">Su nombre completo es Taylor Alison Swift.</h2>
+            </div>
+        </section>
+
+
+        <section class="álbumes sección-clara">
+            <div class="container text-center">
+                <div class="row">
+
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi bi-star"></i>
+                        <p class="álbumes-titulo">Álbumes</p>
+                        <p>Ha hecho 10 grandiosos álbumes lo largo de su carrera musical.</p> 
+                        <div class="badges-contenedor">
+                            <span class="badge text-primary">Taylor Swift</span>
+                            <span class="badge text-primary">Fearless</span>
+                            <span class="badge text-primary">Speak Now</span>
+                            <span class="badge text-primary">Red</span>
+                        </div>
+                    </div>
+
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi bi-star"></i>
+                        <p class="tours-titulo">Tours</p>
+                        <p>Ha tenido seis tours.</p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-primary">Fearless Tour</span>
+                            <span class="badge text-primary">Speak Now World Tour</span>
+                            <span class="badge text-primary">Red Tour</span>
+                        </div>
+                    </div>
+
+                    <div class="columna col-12 col-md-4"> 
+                        <i class="bi bi-star"></i>
+                        <p class="canciones-titulo">Canciones</p>
+                        <p>Tiene más de 200 canciones.</p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-primary">Enchanted</span>
+                            <span class="badge text-primary">Lover</span>
+                            <span class="badge text-primary">Marjorie</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="discos" class="discos-recientes seccion clara d-flex flex-colum">
+            <h2 class="seccion-titulo texto-negro">Álbumes</h2>
+            <h3 class="seccion-descripcion"></h3>
+
+            <div class="container text-center discos-contenedor">
+                <div class="row">
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="discos">
+                            <img src="TS LOVER.png" width="100" alt="LOVER">
+                            <div class="overlay">
+                               <p>Lover</p>
+                               <div class="iconos-contenedor">
+                                <a href="https://www.letras.com/taylor-swift/discografia/lover-2019/" target="_blank" rel="noopener noreferrer">
+                                    <i class=" bi bi-heart"></i>
+                                </a>
+                                <a href="#/" target="_blank" rel="noopener noreferrer">
+                                  
+                                </a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="discos">
+                            <img src="TS FOLKLORE.jpg" width="100" alt="Folklore">
+                            <div class="overlay">
+                               <p>Folklore</p>
+                               <div class="iconos-contenedor">
+                                <a href="https://www.letras.com/taylor-swift/discografia/folklore-2020/" target="_blank" rel="noopener noreferrer">
+                                    <i class=" bi bi-heart"></i>
+                                </a>
+                                <a href="#/" target="_blank" rel="noopener noreferrer">
+                                  
+                                </a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="discos">
+                            <img src="TS EVERMORE.jpg" width="140" alt="Evermore">
+                            <div class="overlay">
+                               <p>Evermore</p>
+                               <div class="iconos-contenedor">
+                                <a href="https://www.letras.com/taylor-swift/evermore-feat-bon-iver/" target="_blank" rel="noopener noreferrer">
+                                    <i class=" bi bi-heart"></i>
+                                </a>
+                                <a href="#/" target="_blank" rel="noopener noreferrer">
+                                  
+                                </a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="discos">
+                            <img src="TS MIDNIGHTS.jpg" width="80" alt="MIDNIGHTS">
+                            <div class="overlay">
+                               <p>Midnights</p>
+                               <div class="iconos-contenedor">
+                                <a href="https://www.letras.com/taylor-swift/discografia/midnights-3am-edition-2022/" target="_blank" rel="noopener noreferrer">
+                                    <i class=" bi bi-heart"></i>
+                                </a>
+                                <a href="#/" target="_blank" rel="noopener noreferrer">
+                                  
+                                </a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="discos">
+                            <img src="TS BEST SONG.jpg" width="100" alt="BEST">
+                            <div class="overlay">
+                               <p>Canciones</p>
+                               <div class="iconos-contenedor">
+                                <a href="https://www.cosmopolitan.com/es/entretenimiento-cultura/g36028853/taylor-swift-mejores-canciones/" target="_blank" rel="noopener noreferrer">
+                                    <i class=" bi bi-heart"></i>
+                                </a>
+                                <a href="#/" target="_blank" rel="noopener noreferrer">
+                                  
+                                </a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="discos">
+                            <img src="TS DATOS.png" width="100" alt="DATOS">
+                            <div class="overlay">
+                               <p>Datos curiosos</p>
+                               <div class="iconos-contenedor">
+                                <a href="https://www.glamour.mx/articulos/datos-curiosos-de-taylor-swift" target="_blank" rel="noopener noreferrer">
+                                    <i class=" bi bi-heart"></i>
+                                </a>
+                                <a href="#/" target="_blank" rel="noopener noreferrer">
+                                  
+                                </a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.letras.com/taylor-swift/lover/" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn btn-info">
+                    <h7>Ver mas canciones</h7>
+                    <i class="bi bi-arrow-right-circle-fill"></i>
+
+                </button>
+            </a>
+        </section>
+
+        
+        <section id="Tours" class="tours sección-clara">
+            <h8 class="seccion-titulo">Tours</h8>
+            <h3 class="seccion-descripcion"></h3>
+            
+
+            <div id="tours-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <img class="tours-imagen rounden-circle" src="fear.jpg" width="80" alt="Fearless">
+                            <p class="tours-texto">Fue la primera gira de la cantante de música country</p>
+                            <p class="tours-texto">FEARLESS TOUR</p>
+                            <div class="tours-info">
+                                <p class="año">2009-2010</p>
+                                <p class="paises">Estados Unidos y Europa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <img class="tours-imagen rounden-circle" src="SN TOUR.jpg" width="80"    alt="Speak">
+                            <p class="tours-texto">Fue la segunda gira de la cantante y compositora estadounidense Taylor Swift en apoyo de su tercer álbum de estudio</p>
+                            <p class="tours-texto">SPEAK NOW WORLD TOUR</p>
+                            <div class="tours-info">
+                                <p class="año">2011-2012</p>
+                                <p class="paises">Estados Unidos, Europa, Asia y Oceanía</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <img class="tours-imagen rounden-circle" src="TS TOUR REP.png" width="80"    alt="Reputation">
+                            <p class="tours-texto">Fue la quinta gira mundial de conciertos y la primera por estadios de la cantante estadounidense Taylor Swift</p>
+                            <p class="tours-texto">REPUTATION TOUR</p>
+                            <div class="tours-info">
+                                <p class="año">2018</p>
+                                <p class="paises">Estados Unidos, Europa, Asia y Oceanía</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#tours-carrusel" data-base-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visualy-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#tours-carrusel" data-base-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visualy-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto seccion-oscura">
+            <div class="container">
+                <div class="container text-center rectangulo d-flex justify-content-evenly">
+                    <div class="row">
+                        <div class="col-12 col-md-4 seccion-titulo">
+                            
+                        </div>
+                        <div class="col-12- col-md-4 descripcion">
+                            <p></p>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a href="marijo122002@gmail.com">
+                                <button type="button">
+                                    contacto
+                                    <i class="bi bi-envelope-check-fill"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     <footer class="seccion-oscura d-flex flex-colum align-items-center justify-content-center">
+        <img class="footer-logo" src="TS 2.png" width="100" alt="Logo del portafolio">
+        <p class="footer-texto text-center">La página mas swifter!!<br>Cantemos todos los días!!</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-facebook"></i>
+            </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Majo &#169;</div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7@PCqsd1tbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+    </body>
+</html> 
+
+        
+        

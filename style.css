@@ -1,0 +1,341 @@
+
+
+.navbar {
+    padding: 2rem;
+    background-color: lightcoral; 
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.seccion-oscura {
+    color: black;
+    background-color: lightcoral;
+}
+
+.seccion-clara {
+    color: rgb(224, 195, 210);
+    background-color: antiquewhite;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: crimson;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+}
+
+.texto-negro {
+    color: deeppink; 
+}
+
+.texto-blanco {
+    color: black;
+}
+
+
+
+.hero {
+    background-color: antiquewhite;
+    min-height: 200px;
+    text-align: center;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero-imagen-desarrollador {
+    width: 150px;
+    height: 150px; 
+    margin: 20px;
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+
+
+.sobre-ella{
+    height: 200px;
+    padding: 10px;
+}
+
+.álbumes {
+    padding: 2opx, 20px, 20px, 20px;
+}
+
+.álbumes .columna {
+    padding: 20px;
+    border: 2px ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2 ease-in;
+}
+
+.álbumes .columna:hover {
+    color: antiquewhite;
+    background-color: rgb(255, 105, 118);
+}
+
+.álbumes i {
+    font-size: 2.5rem;
+    color: crimson;
+    background-color: antiquewhite;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+}
+
+.álbumes {
+    padding: 40px;
+}
+
+    
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.álbumes {
+    position: relative;
+}
+
+.álbumes:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+    display: flex;
+}
+
+.overlay i {
+    color: crimson;
+    background-color: antiquewhite;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.Tours {
+    padding: 2opx, 20px, 20px, 20px;
+}
+
+.Tours .carousel {
+    max-width: 200px;
+}
+
+.carousel-item {
+    height: 200px;
+}
+
+.carousel-item .containder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Tours-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Tours-info p {
+    font-weight: bold;
+    text-align: center;
+}
+.Tours-año p {
+    margin-bottom: 0;
+}
+
+.twitter i {
+    color: crimson;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+h2 {
+    color: deeppink;
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: antiquewhite;
+    padding: 20px;
+    align-content: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: indianred 
+}
+
+h4 {
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightcoral;
+}
+
+h5 {
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightcoral;
+}
+
+h6 {
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightcoral;
+}
+
+h2 {
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+   
+h7 {
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: indianred;
+}
+   
+h8 {
+    color: indianred;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+   
+.button i {
+    background-color: darksalmon;
+}
+
+.contacto .container {
+    max-width: 10px;
+    min-height: 10px;
+    padding: 20px;
+}
+
+.contacto .row {
+    width: 50;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .description {
+    color: hotpink;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: indianred;
+    font-weight: bold;
+    background-color: antiquewhite;
+    border: 2px;
+    padding-bottom: 1.25em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2 ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: antiquewhite;
+    color: indianred;
+}
+
+.contacto button:hover i {
+    color: indianred;
+    font-size: 1.3rem;
+    transition: all 0.2 ease-in-out;
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: antiquewhite;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: antiquewhite;
+    border: 2px;
+}
+
+.iconos-redes-sociales a:hover i {
+    color: antiquewhite;
+}
+.badge text-primary  {
+    color: indianred; 
+}
+
+.span {
+    color: indianred;
+}
+
+.columna:hover {
+    color: indianred;
+}
+
+.badges-contenedor {
+    color: indianred;
+}
+
+
